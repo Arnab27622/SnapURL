@@ -1,0 +1,29 @@
+<nav>
+    <ul>
+        <li>
+            <h1 style="cursor: pointer;">SnapURL</h1>
+        </li>
+        <li>
+            <a href="/">Home</a>
+        </li>
+        <% if (locals.user) { %>
+            <li>
+                <a href="/">
+                    <%= user.fullName %>
+                </a>
+            </li>
+            <li>
+                <a href="/user/logout">
+                    Log Out
+                </a>
+            </li>
+            <% } else { %>
+                <li>
+                    <a href="/signup">Create Account</a>
+                </li>
+                <li>
+                    <a href="/login">Log In</a>
+                </li>
+                <% } %>
+    </ul>
+</nav>

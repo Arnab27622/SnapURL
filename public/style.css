@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f7;
+    color: #333;
+}
+
+/* Styling for the navigation bar */
+nav {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d5e8d4;
+}
+
+/* Styling for the generated URL block */
+.generated-url {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #e8f5e9;
+    padding: 15px;
+    border: 1px solid #4CAF50;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2e7d32;
+}
+
+.generated-url a {
+    color: #1b5e20;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.generated-url a:hover {
+    text-decoration: underline;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus {
+    border-color: #4CAF50;
+}
+
+form button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Table styling */
+table {
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 16px;
+}
+
+th {
+    background-color: #4CAF50;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+td {
+    word-break: break-all;
+}
+
+table button {
+    padding: 6px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+table button:hover {
+    background-color: #45a049;
+}
+
+/* Link Styling */
+a,
+a:hover,
+a:active,
+a:visited {
+    color: darkblue;
+    text-decoration: none;
+}
