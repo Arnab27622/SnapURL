@@ -18,7 +18,7 @@ A simple and efficient URL shortener application built with Node.js. It allows u
 - **MongoDB**: NoSQL database for storing URL and user data.
 - **Mongoose**: ODM for MongoDB, simplifying database interactions.
 - **JWT (JSON Web Tokens)**: For authentication and protecting routes.
-- - **crypto**: For password hashing.
+- **crypto**: For password hashing.
 - **EJS**: For rendering dynamic HTML.
 
 ## Prerequisites
