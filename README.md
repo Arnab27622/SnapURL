@@ -8,8 +8,8 @@ A simple and efficient URL shortener application built with Node.js. It allows u
 - **Retrieve Original URL**: Users can access the original URL by using the generated short link.
 - **User Authentication**: Users can create accounts, log in, and log out to manage their shortened URLs.
 - **Protected Routes**: Only authenticated users can create and manage their URLs.
-- **MongoDB Integration**: MongoDB is used to store the long URLs, short URLs, and user data.
-- **JWT Authentication**: JWT tokens are used for securely managing user sessions.
+- **MongoDB Integration**: MongoDB stores original URLs, short URLs, and user data.
+- **JWT Authentication**: JWT tokens securely manage user sessions.
 
 ## Technologies Used
 
@@ -31,5 +31,5 @@ Make sure you have the following installed on your machine:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/url-shortener.git
-   cd url-shortener
+   git clone https://github.com/Arnab27622/SnapURL.git
+   cd SnapURL
