@@ -33,3 +33,42 @@ Make sure you have the following installed on your machine:
    ```bash
    git clone https://github.com/Arnab27622/SnapURL.git
    cd SnapURL
+2. Install dependencies:
+   ```bash
+   npm install
+3. Create a .env file in the root directory and configure the following environment variables:
+   ```
+   MONGO_URL=your_mongodb_connection_string
+   JWT_SECRET=your_secret_key_for_jwt
+   PORT=your_custom_port
+4. Start the application:
+   ```bash
+   npm start
+5. Project Structure
+   ```
+   ├── models
+   │   ├── user.js             # User schema and model
+   │   ├── url.js              # URL schema and model
+   ├── routes
+   │   ├── url.js              # URL-related routes
+   │   ├── staticRoutes.js     # UI-related routes
+   │   └── user.js             # User-related routes
+   ├── controllers
+   │   ├── static.js           # Logic for UI handling
+   │   └── url.js              # Logic for url handling
+   │   └── user.js             # Logic for user handling
+   ├── middleware
+   │   └── auth.js             # Logic for Authorization Checking
+   ├── public                  # Folder for storing style sheets
+   ├── service
+   │   ├── auth.js             # Logic for JWT token creation and verification
+   ├── views                   # EJS views for rendering HTML
+   │   └── partials         
+   ├── app.js                  # Main entry point for the application
+   ├── connection.js           # Handles MongoDB connection
+   └── package.json            # Dependency management
+
+## Future Enhancements
+- **Custom Short URLs**: Allow users to create personalized short URLs instead of generating random strings.
+- **Expiration Dates**: Introduce the ability for users to set expiration dates for their shortened URLs.
+- **Admin Dashboard**: Create an admin interface to manage user accounts and monitor URL usage.
